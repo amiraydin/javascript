@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisiner</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./homepage.css">
+    <!-- link fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white h1 mx-3" href="#">Cui'ziner</a>
+                <button class="border border-1 mx-3  navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mb-lg-0 offset-9">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hight text-white p-5 " height="200%">
+            <img src="./img/logo_square_white.png" width="5%" alt="logo-image">
+            <h1>Cui'zine</h1>
+            <h3>Le mag cuisine</h3>
+        </div>
+
+        <hr>
+    </header>
+    <main>
+        <!-- debut de premier section -->
+        <section class="container col-10">
+            <div class="text-center p-3">
+                <h3>Dernier article</h3>
+            </div>
+            <!-- premier article -->
+            <article class="d-flex">
+                <div class="col-3">
+                    <img src="./img/articles/suzette/suzette-small.jpg" alt="image small metro" class="col-11">
+                </div>
+                <div class="">
+                    <h4 class="courgette">Chez sueztte la nouvelle crêprie qui fait parler d'elle</h4>
+                    <P> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis asperiores, molestiae
+                        labore earum ab illum sint perspiciatis veniam ipsam voluptate nesciunt corrupti, maxime dolor!
+                        Illum ducimus cupiditate mollitia nihil.
+                    </P>
+                </div>
+                <div>
+                    <label for="text"><b> Recherch</b></label>
+                    <input type="text" placeholder="Recherche...">
+                    <button class="batton">Ok</button>
+                </div>
+            </article>
+            <!-- deusieme article -->
+            <article class="d-flex ">
+                <div class="my-2 col-3">
+                    <img src="./img/articles/metro/metro-small.jpg" alt="metro image" class="col-11">
+                </div>
+                <div>
+                    <h4>Le Métro dessert</h4>
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis asperiores, molestiae
+                        labore earum ab illum sint perspiciatis veniam ipsam voluptate nesciunt corrupti, maxime dolor!
+                        Illum ducimus cupiditate mollitia nihil.
+                    </P>
+                </div>
+                <div>
+                    <label for="text"><b> Newsletter</b></label>
+                    <input type="text" placeholder="email">
+                    <button class="batton">S'inscrire</button>
+                </div>
+            </article>
+            <!-- troisieme article -->
+            <article class="d-flex">
+                <div class="my-2 col-3">
+                    <img src="./img/articles/vitaly/vitaly-small.jpg" alt="Vitaly-image" class="col-11">
+                </div>
+
+                <div>
+                    <h4>Vitaly, le Vegan italien</h4>
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis asperiores, molestiae
+                        labore earum ab illum sint perspiciatis veniam ipsam voluptate nesciunt corrupti, maxime dolor!
+                        Illum ducimus cupiditate mollitia nihil.
+                    </P>
+                </div>
+                <div>
+                    <label class="mx-1" for="text"><b> Partager</b></label>
+                    <div class="d-flex">
+                        <div class="nav-link">
+                            <a href="#" class="text-dark"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#" class="text-dark"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="my-4">
+                <a href="#" class="text-dark oswald text-decoration-none"> &#60&#60 &nbsp&nbsp Voir les autres articles</a>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer -->
+    <footer class="d-flex container-fluid p-5 bg-dark ">
+        <article class="col-4">
+            <h4 class="text-white">Catégories</h4>
+            <div class="row">
+                <a class="text-white" href="#">Revues</a>
+                <a class="text-white" href="#">Recettes</a>
+                <a class="text-white" href="#">Découvertes</a>
+            </div>
+        </article>
+        <article class="col-4">
+            <h4 class="text-white">Archives</h4>
+            <div class="row">
+                <a class="text-white" href="#">2019</a>
+                <a class="text-white" href="#">2018</a>
+                <a class="text-white" href="#">2017</a>
+            </div>
+        </article>
+        <article class="col-4">
+            <div>
+                <p><label for="text" class="text-white"><b> Newsletter</b></label></p>
+                <input type="email">
+                <button>S'inscrire</button>
+            </div>
+            <div class="my-4">
+                <p class="text-white">
+                    <label for="text"><b> Partager </b></label>
+                </p>
+                <div class="d-flex">
+                    <div class="nav-link bg-light rounded">
+                        <a href="#" class="text-dark"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                    <div class="nav-link bg-light rounded mx-1">
+                        <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="nav-link bg-light rounded">
+                        <a href="#" class="text-dark"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="nav-link bg-light rounded mx-1">
+                        <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
+
+
+
+!!! css !!! 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@font-face {
+    font-family: 'Courgette';
+    src: url(./font/Courgette-Regular.ttf);
+    font-style: normal;
+}
+:root {
+    --oswald : (font-family: 'Oswald', sans-serif)
+}
+
+/* general */
+body {
+    overflow: overlay;
+}
+
+header {
+    background: linear-gradient( rgba(0,0,0,0.6)0%,rgba(0,0,0,0.6) 100%), url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courgette';
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    border-bottom: inset;
+}
+.hight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.batton {
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
